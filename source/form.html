@@ -21,6 +21,91 @@
       </nav>
     </header>
 
+    <main class="page-form">
+      <h1 class="single-title">Подбор программы</h1>
+
+      <section class="program">
+        <h2 class="program__title">Заполните анкету и мы подберем программу питания для вашего кота</h2>
+        <form class="program__form" action="index.html" method="post">
+          <ul class="program__userdate-list">
+            <li class="program__userdate-item">
+              <label class="program__label" for="name">Имя:*</label>
+              <input class="program__input-text" type="text" id="name" name="name" placeholder="Барсик" required>
+            </li>
+            <li class="program__userdate-item">
+              <label class="program__label" for="weight">Вес (кг):*</label>
+              <input class="program__input-text" type="text" id="weight" name="weight" placeholder="7" required>
+            </li>
+            <li class="program__userdate-item">
+              <label class="program__label" for="age">Возраст (лет):</label>
+              <input class="program__input-text" type="text" id="age" name="age" placeholder="7">
+            </li>
+          </ul>
+
+          <ul class="program__choose-result-lits">
+            <li class="program__choose-result-item">
+              <input class="program__radio" type="radio" name="choose-result" value="diet" id="diet" checked>
+              <label class="program__label" for="diet">Похудение</label>
+            </li>
+            <li class="program__choose-result-item">
+              <input class="program__radio" type="radio" name="choose-result" value="mass" id="mass">
+              <label class="program__label" for="mass">Набор массы</label>
+            </li>
+            <li class="program__choose-result-item">
+              <input class="program__radio" type="radio" name="choose-result" value="no-choose" id="no-choose">
+              <label class="program__label" for="no-choose">Не знаю (Нужен ваш совет)</label>
+            </li>
+          </ul>
+
+          <h3 class="program__form-title">Контактные данные(владельца кота)</h3>
+          <ul class="program__user-contact-list">
+            <li class="program__user-contact-item">
+              <label class="program__label" for="email">E-mail:*</label>
+              <input class="program__input-text program__input-text--email" type="email" id="email" name="email" placeholder="kuklachev@gmail.com" required>
+            </li>
+            <li class="program__user-contact-item">
+              <label class="program__label" for="phone">Телефон:*</label>
+              <input class="program__input-text program__input-text--phone" type="tel" id="phone" name="phone" placeholder="8 (960) 900-60-90" required>
+            </li>
+          </ul>
+
+          <h3 class="program__form-title">Комментарий</h3>
+          <textarea class="program__comment" name="comments" rows="8" cols="80" placeholder="">Расскажите обо всех повадках кота</textarea>
+
+          <h3 class="program__form-title">Дополнительно</h3>
+          <ul class="program__more-detail-list">
+            <li class="program__more-detail-item">
+              <input class="program__chekbox" type="checkbox" name="detail" id="sweetener" checked>
+              <label class="program__label" for="sweetener">Сахарозаменитель</label>
+            </li>
+            <li class="program__more-detail-item">
+              <input class="program__chekbox" type="checkbox" name="detail" id="water">
+              <label class="program__label" for="water">Питьевая вода</label>
+            </li>
+            <li class="program__more-detail-item">
+              <input class="program__chekbox" type="checkbox" name="detail" id="milk">
+              <label class="program__label" for="milk">Молоко</label>
+            </li>
+            <li class="program__more-detail-item">
+              <input class="program__chekbox" type="checkbox" name="detail" id="vita">
+              <label class="program__label" for="vita">Витамины</label>
+            </li>
+          </ul>
+
+          <button class="single-button button" type="submit">Отправить заявку</button>
+          <span class="program__required">* — Обязательные поля</span>
+        </form>
+      </section>
+
+      <section class="contacts">
+        <h2 class="visually-hidden">Контактные данные</h2>
+        <p class="contacts__dillers-info">приглашаем к сотрудничеству дилеров!</p>
+        <p class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <img class="contacts__map" src="https://via.placeholder.com/320x400" width="320" height="400" alt="Карта проезда">
+      </section>
+
+    </main>
+
     <footer class="page-footer">
       <a class="page-footer__logo" href="index.html">
         <img class="page-footer__logo-image" src="https://via.placeholder.com/128x24" width="128" height="24" alt="Логотип компании Кэт энерджи">
