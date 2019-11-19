@@ -1,50 +1,20 @@
 @import "global/normalize.scss";
 @import "global/font.scss";
 @import "global/globalstyle.scss";
+@import "global/variables.scss";
+@import "global/globalclass.scss";
+@import "global/mixins.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/page-main.scss";
-@import "global/colors.scss";
+@import "blocks/promo.scss";
+@import "blocks/result-choose.scss";
+@import "blocks/how-works.scss";
 
-.main-title {
-  color: #000000;
-  font-size: 36px;
+.page-footer {
+  background-color: $grey;
 }
 
-.main-title--white {
-  color: #ffffff;
-  font-size: 36px;
-}
+.page-footer__logo {
 
-.button {
-  background-color:
-}
-
-.promo {
-  position: relative;
-  min-height: 480px;
-}
-
-.promo__content {
-  background-color: $green;
-  background-image: url("../img/index-background-mobile@1x.jpg");
-  background-repeat: no-repeat;
-  min-height: 305px;
-}
-
-.promo__slogan {
-  color: #ffffff;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-.promo__img {
-  position: absolute;
-  top: 167px;
-}
-
-.promo__programm-choose {
-  color: #ffffff;
-  font-size: 14px;
-  text-transform: uppercase;
 }

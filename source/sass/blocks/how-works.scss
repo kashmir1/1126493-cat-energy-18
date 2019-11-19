@@ -1,0 +1,61 @@
+.how-works {
+  padding: 20px;
+  padding-right: 20px;
+}
+
+.how-works__list {
+  @include list;
+}
+
+.how-works__item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 60px;
+  @include content-font;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -60px;
+    background-color: $green;
+  }
+}
+
+.how-works__item--healthy::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/advantage-leaf@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.how-works__item--form::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/advantage-powder@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.how-works__item--eat::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/advantage-dining@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.how-works__item--result::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../img/advantage-clock@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
