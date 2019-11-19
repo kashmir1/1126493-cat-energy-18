@@ -1,0 +1,14 @@
+.page-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 11px;
+}
+
+.page-header__logo {
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.6;
+  }
+}
