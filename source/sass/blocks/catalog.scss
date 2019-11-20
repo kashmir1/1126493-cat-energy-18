@@ -1,6 +1,8 @@
 .catalog {
   padding-left: 20px;
   padding-right: 20px;
+
+  @include main-font;
 }
 
 .catalog__list {
@@ -10,12 +12,14 @@
 .catalog__item {
   display: flex;
   flex-direction: column;
+  padding-bottom: 25px;
   border-top: 1px solid #ededed;
   border-bottom: 1px solid #ededed;
 }
 
 .catalog__product-link {
   color: $dark-grey;
+  text-decoration: none;
 }
 
 .catalog__product-title {
@@ -36,9 +40,6 @@
   order: -1;
 }
 
-.single-button {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 16px;
-  font-weight: 400;
+.catalog__button-indentation {
+  margin-top: 27px;
 }

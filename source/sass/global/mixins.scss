@@ -11,3 +11,7 @@
   list-style: none;
   padding: 0;
 }
+
+@mixin main-font {
+  font-family: "Oswald", "Arial", sans-serif;
+}

@@ -1,9 +1,10 @@
 .main-nav {
-  background-color: #ffffff;
+  @include main-font;
+  background-color: $white;
 }
 
 .main-nav__toggle {
-  background-color: #ffffff;
+  background-color: $white;
   background-image: url("../img/icon-mobile-menu.svg");
   background-repeat: no-repeat;
   border: 0;
@@ -25,6 +26,7 @@
 }
 
 .main-nav__link {
+  text-decoration: none;
   color: $dark-grey;
 
   &:hover {

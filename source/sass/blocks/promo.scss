@@ -13,7 +13,7 @@
 }
 
 .promo__slogan {
-  color: #ffffff;
+  color: $white;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -25,5 +25,8 @@
 
 .promo__programm-choose {
   font-size: 14px;
-  align-items: flex-end;
+}
+
+.promo__indentation {
+  margin-top: auto;
 }
