@@ -1,0 +1,30 @@
+.paginator {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.paginator__show-more {
+  width: 31px;
+  height: 31px;
+  background-image: url("../img/icon-plus-mobile.svg");
+  opacity: 0.2;
+}
+
+.paginator__product-quantity {
+  color: $dark-grey;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.paginator__quantity-description {
+  @include content-font;
+  font-size: 12px;
+}
+
+.paginator__button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}

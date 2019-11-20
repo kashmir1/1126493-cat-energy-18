@@ -29,3 +29,22 @@
     color: rgba(255, 255, 255, 0.3);
   }
 }
+
+.button--grey {
+  background-color: $grey;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  text-align: center;
+  margin-top: auto;
+  color: $greyish;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #ebebeb;
+  }
+
+  &:active {
+    background-color: #ebebeb;
+    color: rgba(68, 68, 68, 0.3);
+  }
+}
