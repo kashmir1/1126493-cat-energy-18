@@ -1,0 +1,114 @@
+.page-footer {
+  background-color: $grey;
+}
+
+.page-footer__logo {
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.page-footer__logo-image {
+  margin-top: 39px;
+  margin-bottom: 31px;
+}
+
+.page-footer__social {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 26px;
+  padding-bottom: 23px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.social__list {
+  display: flex;
+  align-items: center;
+
+  @include list;
+}
+
+.social__link--vk-icon {
+  margin-right: 40px;
+  width: 22px;
+  height: 12px;
+  fill: #666666;
+
+  &:hover {
+    fill: $green;
+  }
+
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}
+
+.social__link--insta-icon {
+  margin-right: 40px;
+  width: 17px;
+  height: 17px;
+  fill: #666666;
+
+  &:hover {
+    fill: $green;
+  }
+
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}
+
+.social__link--fb-icon {
+  margin-right: 40px;
+  width: 10px;
+  height: 19px;
+  fill: #666666;
+
+  &:hover {
+    fill: $green;
+  }
+
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}
+
+.page-footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.copyright__company-link {
+  @include content-font;
+  font-size: 16px;
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__logo {
+  width: 27px;
+  height: 34px;
+  fill: #666666;
+
+  &:hover {
+    fill: $green;
+  }
+
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}

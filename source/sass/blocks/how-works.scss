@@ -12,10 +12,12 @@
   align-items: center;
   position: relative;
   min-height: 60px;
+
   @include content-font;
   margin-left: 60px;
   margin-bottom: 20px;
   padding-left: 20px;
+
   &::before {
     content: "";
     position: absolute;

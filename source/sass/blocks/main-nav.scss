@@ -11,10 +11,6 @@
   height: 19px;
 }
 
-.main-nav__wrapper {
-
-}
-
 .main-nav__list {
   padding-left: 0;
   font-size: 20px;
@@ -30,12 +26,14 @@
 
 .main-nav__link {
   color: $dark-grey;
-    &:hover {
-      opacity: 0.6;
-    }
-    &:active {
-      opacity: 0.3;
-    }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .main-nav__link--active {

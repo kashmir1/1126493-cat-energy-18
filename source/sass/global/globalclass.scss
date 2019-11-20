@@ -1,7 +1,7 @@
 .main-title {
- color: #000000;
- font-size: 36px;
- font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 400;
 }
 
 .main-title--white {
@@ -19,9 +19,11 @@
   margin-top: auto;
   color: #ffffff;
   text-transform: uppercase;
+
   &:hover {
     background-color: #5eaa2f;
   }
+
   &:active {
     background-color: #5eaa2f;
     color: rgba(255, 255, 255, 0.3);
