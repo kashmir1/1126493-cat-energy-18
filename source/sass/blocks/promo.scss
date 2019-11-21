@@ -1,0 +1,32 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 480px;
+}
+
+.promo__content {
+  background-color: $green;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  min-height: 305px;
+}
+
+.promo__slogan {
+  color: $white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.promo__img {
+  position: absolute;
+  top: 167px;
+}
+
+.promo__programm-choose {
+  font-size: 14px;
+}
+
+.promo__indentation {
+  margin-top: auto;
+}

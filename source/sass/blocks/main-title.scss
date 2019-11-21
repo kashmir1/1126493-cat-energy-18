@@ -1,0 +1,10 @@
+.main-title {
+  @include main-font;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.main-title--white {
+  color: $white;
+}

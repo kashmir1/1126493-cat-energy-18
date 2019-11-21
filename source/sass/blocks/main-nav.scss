@@ -1,0 +1,44 @@
+.main-nav {
+  @include main-font;
+  background-color: $white;
+}
+
+.main-nav__toggle {
+  background-color: $white;
+  background-image: url("../img/icon-mobile-menu.svg");
+  background-repeat: no-repeat;
+  border: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.main-nav__list {
+  padding-left: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.main-nav__item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.main-nav__link {
+  text-decoration: none;
+  color: $dark-grey;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.main-nav__link--active {
+  color: $dark-grey;
+  border-bottom: 2px solid #68b738;
+}
