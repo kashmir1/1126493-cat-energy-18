@@ -1,6 +1,11 @@
 .paginator {
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 25px;
+}
+
+.paginator__wrapper {
   padding-left: 20px;
   padding-right: 20px;
 }
