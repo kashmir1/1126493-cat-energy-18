@@ -3,7 +3,7 @@
   padding-bottom: 36px;
 }
 
-.program--wrapper {
+.program__wrapper {
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -81,43 +81,75 @@
   margin-left: 46px;
 }
 
-.program__radio:checked ~ .program__label--indent {
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -5px;
-    width: 12px;
-    height: 12px;
-    background-color: $green;
-    background-clip: content-box;
-    border-radius: 50%;
-    border: 1px solid #cdcdcd;
+.program__radio {
+  &:disabled {
+    ~ .program__label--indent {
+      opacity: 0.3;
+    }
   }
 
-  &:hover::before {
-    border: 1px solid #bababa;
+  ~ .program__label--indent {
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -5px;
+      width: 12px;
+      height: 12px;
+      padding: 7px;
+      background-clip: content-box;
+      border-radius: 50%;
+      border: 1px solid #cdcdcd;
+    }
+  }
+
+  &:checked {
+    ~ .program__label--indent {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -5px;
+        width: 12px;
+        height: 12px;
+        background-color: $green;
+        background-clip: content-box;
+        border-radius: 50%;
+        border: 1px solid #cdcdcd;
+      }
+
+      &:hover::before {
+        border: 1px solid #bababa;
+      }
+    }
   }
 }
 
-.program__radio ~ .program__label--indent {
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -5px;
-    width: 12px;
-    height: 12px;
-    padding: 7px;
-    background-clip: content-box;
-    border-radius: 50%;
-    border: 1px solid #cdcdcd;
-  }
-}
+// .program__radio {
+//   ~ .program__label--indent {
+//
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       left: 0;
+//       top: -5px;
+//       width: 12px;
+//       height: 12px;
+//       padding: 7px;
+//       background-clip: content-box;
+//       border-radius: 50%;
+//       border: 1px solid #cdcdcd;
+//     }
+//   }
+// }
 
-.program__radio:disabled ~ .program__label--indent {
-  opacity: 0.3;
-}
+// .program__radio {
+//   &:disabled {
+//     ~ .program__label--indent {
+//         opacity: 0.3;
+//     }
+//   }
+// }
 
 .program__form-title {
   display: flex;
@@ -208,37 +240,70 @@
   margin-bottom: 20px;
 }
 
-.program__checkbox:checked ~ .program__label {
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #cdcdcd;
-    background-image: url("../img/icon-tick.svg");
-    background-repeat: no-repeat;
-    background-size: 22px 17px;
-    background-position: center;
+.program__checkbox {
+  &:disabled {
+    ~ .program__label {
+      opacity: 0.3;
+    }
+  }
+
+  ~ .program__label {
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -5px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid #cdcdcd;
+    }
+  }
+
+  &:checked {
+    ~ .program__label {
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #cdcdcd;
+        background-image: url("../img/icon-tick.svg");
+        background-repeat: no-repeat;
+        background-size: 22px 17px;
+        background-position: center;
+      }
+
+      &:hover::before {
+        border: 1px solid #bababa;
+      }
+    }
   }
 }
 
-.program__checkbox ~ .program__label {
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #cdcdcd;
-  }
-}
-
-.program__checkbox:disabled ~ .program__label--indent {
-  opacity: 0.3;
-}
+// .program__checkbox {
+//   ~ .program__label {
+//
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       left: 0;
+//       top: -5px;
+//       width: 30px;
+//       height: 30px;
+//       border: 1px solid #cdcdcd;
+//     }
+//   }
+// }
+//
+// .program__checkbox {
+//   &:disabled {
+//     ~ .program__label {
+//         opacity: 0.3;
+//     }
+//   }
+// }
 
 .program__required {
   display: block;

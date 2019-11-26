@@ -7,16 +7,16 @@
 }
 
 .catalog__item-wrapper {
-  padding-bottom: 25px;
-  border-top: 1px solid #ededed;
-  border-bottom: 1px solid #ededed;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .catalog__item {
   display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
   flex-direction: column;
+  padding-bottom: 25px;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
 }
 
 .catalog__product-link {
