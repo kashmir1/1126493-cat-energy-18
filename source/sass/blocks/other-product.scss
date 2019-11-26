@@ -1,0 +1,88 @@
+.other-product {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 31px;
+  padding-bottom: 35px;
+}
+
+.other-product__title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: $dark-grey;
+
+  &::after {
+    content: "";
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 24px;
+    height: 3px;
+    background-color: $green;
+  }
+}
+
+.other-product__list {
+  list-style: none;
+  padding: 0;
+}
+
+.other-product__item {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.other-product__item--first {
+  border-top: 1px solid #cdcdcd;
+}
+
+.other-product__item-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: $dark-grey;
+  text-transform: uppercase;
+}
+
+.other-product__features {
+  width: 100%;
+}
+
+.other-product__features-set {
+  @include content-font;
+}
+
+.other-product__features-property {
+  text-align: left;
+}
+
+.other-product__features-value {
+  text-align: right;
+}
+
+.other-product__bonus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 280px;
+  min-height: 289px;
+  background-color: $green;
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-repeat: no-repeat;
+}
+
+.other-product__gift {
+  margin-top: 65px;
+  width: 56px;
+  height: 61px;
+  fill: #ffffff;
+}
+
+.other-product__bonus-description {
+  margin-top: 65px;
+
+  @include content-font;
+  font-size: 16px;
+  color: $white;
+}
