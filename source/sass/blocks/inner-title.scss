@@ -1,0 +1,10 @@
+.inner-title {
+  @include main-font;
+  color: $dark-grey;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.inner-title--wrapper {
+  padding-left: 20px;
+}

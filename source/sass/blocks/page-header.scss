@@ -1,16 +1,48 @@
 .page-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   @include main-font;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 11px;
 }
 
+.page-header__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .page-header__logo {
+  padding-left: 20px;
+
   &:hover {
     opacity: 0.8;
   }
 
   &:active {
     opacity: 0.6;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-header  {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header  {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 53px;
+    padding-left: 29px;
   }
 }
