@@ -22,3 +22,9 @@
   font-size: 36px;
   font-weight: 400;
 }
+
+@media (min-width: $tablet-width) {
+  .main-title__h2 {
+    font-size: 60px;
+  }
+}

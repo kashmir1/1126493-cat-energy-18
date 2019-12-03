@@ -4,8 +4,23 @@
   padding-right: 20px;
 }
 
+@media (min-width: $tablet-width) {
+  .how-works {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+}
+
 .how-works__list {
   @include list;
+  counter-reset: section;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .how-works__item {
@@ -27,6 +42,47 @@
   }
 }
 
+@media (min-width: $tablet-width) {
+  .how-works__item {
+    align-items: flex-start;
+
+    width: 45%;
+    min-height: 233px;
+
+    margin-left: 0;
+    padding-top: 118px;
+    padding-left: 0;
+
+    font-size: 16px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $green;
+    }
+
+    &::after {
+      counter-increment: section;
+      content: counter(section) "";
+      position: absolute;
+      top: -70px;
+      left: 126px;
+      @include main-font;
+      color: $grey;
+      font-size: 281px;
+      z-index: -1;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .how-works__item {
+    width: 25%;
+  }
+}
+
 .how-works__item--healthy::before {
   content: "";
   width: 60px;
@@ -34,6 +90,13 @@
   background-image: url("../img/advantage-leaf@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__item--healthy::before {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .how-works__item--form::before {
@@ -45,6 +108,13 @@
   background-position: 50% 50%;
 }
 
+@media (min-width: $tablet-width) {
+  .how-works__item--form::before {
+    width: 80px;
+    height: 80px;
+  }
+}
+
 .how-works__item--eat::before {
   content: "";
   width: 60px;
@@ -54,6 +124,13 @@
   background-position: 50% 50%;
 }
 
+@media (min-width: $tablet-width) {
+  .how-works__item--eat::before {
+    width: 80px;
+    height: 80px;
+  }
+}
+
 .how-works__item--result::before {
   content: "";
   width: 60px;
@@ -61,4 +138,21 @@
   background-image: url("../img/advantage-clock@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__item--result::before {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.how-works__description {
+  width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+  .how-works__description {
+    width: 250px;
+  }
 }
