@@ -82,9 +82,16 @@
   }
 }
 
-.main-nav__link--active {
-  text-decoration: none;
+.main-nav__link--desktop {
   color: $dark-grey;
+}
+
+.main-nav__link--desktop-active {
+  border-bottom: 2px solid #68b738;
+  padding-bottom: 12px;
+}
+
+.main-nav__link--active {
   border-bottom: 2px solid #68b738;
   padding-bottom: 12px;
 }

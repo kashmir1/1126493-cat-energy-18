@@ -1,8 +1,6 @@
 .paginator {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #ededed;
-  padding-bottom: 25px;
 }
 
 .paginator__wrapper {
@@ -11,21 +9,65 @@
 }
 
 .paginator__show-more {
+  display: block;
+
+  margin-top: 27px;
+  margin-left: auto;
+  margin-right: auto;
+
   width: 31px;
   height: 31px;
   background-image: url("../img/icon-plus-mobile.svg");
   opacity: 0.2;
 }
 
+@media (min-width: $tablet-width) {
+  .paginator__show-more {
+    margin-top: 55px;
+
+    width: 61px;
+    height: 61px;
+    background-image: url("../img/icon-plus.svg");
+  }
+}
+
 .paginator__product-quantity {
+  text-align: center;
   color: $dark-grey;
   font-size: 16px;
   text-transform: uppercase;
 }
 
+@media (min-width: $tablet-width) {
+  .paginator__product-quantity {
+    width: 135px;
+
+    margin: 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+}
+
 .paginator__quantity-description {
+  text-align: center;
+
   @include content-font;
   font-size: 12px;
+}
+
+@media (min-width: $tablet-width) {
+  .paginator__quantity-description {
+    width: 168px;
+
+    margin: 0;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 85px;
+    font-size: 16px;
+  }
 }
 
 .paginator__button {
