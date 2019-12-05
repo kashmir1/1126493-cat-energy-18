@@ -4,20 +4,16 @@
 
   @include main-font;
   background-color: $grey;
-}
 
-@media (min-width: $tablet-width) {
-  .page-footer {
+  @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
 
     padding-left: 30px;
     padding-right: 30px;
   }
-}
 
-@media (min-width: $desktop-width) {
-  .page-footer {
+  @media (min-width: $desktop-width) {
     padding-left: 110px;
     padding-right: 110px;
   }

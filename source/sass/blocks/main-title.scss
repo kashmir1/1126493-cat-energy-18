@@ -3,10 +3,8 @@
   color: $white;
   font-size: 36px;
   font-weight: 400;
-}
 
-@media (min-width: $tablet-width) {
-  .main-title {
+  @media (min-width: $tablet-width) {
     width: 420px;
     color: $dark-grey;
     font-size: 60px;
@@ -21,10 +19,8 @@
   color: $dark-grey;
   font-size: 36px;
   font-weight: 400;
-}
 
-@media (min-width: $tablet-width) {
-  .main-title__h2 {
+  @media (min-width: $tablet-width) {
     font-size: 60px;
   }
 }
