@@ -1,0 +1,22 @@
+.inner-title {
+  padding-left: 20px;
+
+  @include main-font;
+  color: $dark-grey;
+  font-size: 36px;
+  font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 33px;
+    font-size: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+    font-size: 60px;
+  }
+}
+
+.inner-title--wrapper {
+  padding-left: 20px;
+}
