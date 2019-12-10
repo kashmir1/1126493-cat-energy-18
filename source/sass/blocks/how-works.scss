@@ -1,7 +1,9 @@
 .how-works {
+  box-sizing: border-box;
+
   @include main-font;
   padding: 20px;
-  padding-right: 20px;
+  padding-top: 0;
 
   @media (min-width: $tablet-width) {
     padding-left: 33px;
@@ -10,6 +12,8 @@
 }
 
 .how-works__list {
+  margin-top: 30px;
+
   @include list;
   counter-reset: section;
 
@@ -28,7 +32,6 @@
 
   @include content-font;
   margin-left: 60px;
-  margin-bottom: 20px;
   padding-left: 20px;
 
   &::before {

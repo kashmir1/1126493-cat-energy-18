@@ -13,7 +13,7 @@
 
 .main-nav__toggle {
   position: absolute;
-  top: -20px;
+  top: -30px;
   right: 20px;
 
   background-color: $white;
@@ -34,13 +34,13 @@
   &::before {
     content: "";
     position: absolute;
-    top: -15px;
-    right: 23px;
+    top: -30px;
+    right: 20px;
     // z-index: 1;
 
     background-image: url("../img/icon-mobile-menu.svg");
     background-repeat: no-repeat;
-    width: 19px;
+    width: 25px;
     height: 19px;
 
     @media (min-width: $tablet-width) {
@@ -77,6 +77,7 @@
 }
 
 .main-nav__list {
+  margin: 0;
   padding-left: 0;
   font-size: 20px;
   text-transform: uppercase;
