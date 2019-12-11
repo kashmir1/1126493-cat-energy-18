@@ -9,14 +9,17 @@
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
+    padding-top: 34px;
+    padding-left: 29px;
+    padding-right: 29px;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
-    padding-top: 53px;
-    padding-left: 29px;
+    padding-top: 65px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
