@@ -153,23 +153,6 @@ c-1.4,2.1-2,2.4-2.5,2.4c-0.1,0-0.3,0-0.4-0.1c-0.7-0.4-0.7-1.4-0.7-2.1V3.9V2.6c0.
         </a>
       </div>
     </footer>
-
-    <script>
-     var navMain = document.querySelector('.main-nav');
-     var navToggle = document.querySelector('.main-nav__toggle');
-
-     navMain.classList.remove('main-nav--nojs');
-
-     navToggle.addEventListener('click', function() {
-       if (navMain.classList.contains('main-nav--closed')) {
-         navMain.classList.remove('main-nav--closed');
-         navMain.classList.add('main-nav--opened');
-       }
-       else {
-         navMain.classList.add('main-nav--closed');
-         navMain.classList.remove('main-nav--opened');
-       }
-     })
-    </script>
+    <script src="js/menu.js"></script>
   </body>
 </html>
