@@ -29,7 +29,6 @@
     <main class="main-page">
 
       <section class="promo">
-        <!-- <div class="promo__background"></div> -->
         <div class="promo__content">
           <h1 class="main-title main-title--promo">Функциональное питание для котов</h1>
           <p class="promo__slogan">Занялся собой? Займись котом!</p>
@@ -78,27 +77,36 @@
       </section>
 
       <section class="living-example">
-        <h2 class="main-title__h2">Живой пример</h2>
-        <p class="living-example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
-        <div class="living-example__total">
-          <div class="living-example__total-stats">
-            <span class="living-example__stats-result">5 кг</span>
-            <span class="living-example__stats-type">снижение веса</span>
+
+        <h2 class="main-title__h2 main-title__h2--indent">Живой пример</h2>
+        <div class="living-example__wrapper">
+          <div class="living-example__description">
+            <p class="living-example__act">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
+            <div class="living-example__total-wrapper">
+              <div class="living-example__total">
+                <div class="living-example__total-stats">
+                  <span class="living-example__stats-result">5 кг</span>
+                  <span class="living-example__stats-type">снижение веса</span>
+                </div>
+                <div class="living-example__total-stats">
+                  <span class="living-example__stats-result">60 дней</span>
+                  <span class="living-example__stats-type">затрачено времени</span>
+                </div>
+              </div>
+              <p class="living-example__cost">Затраты на питание: 15 000 руб.</p>
+            </div>
           </div>
-          <div class="living-example__total-stats">
-            <span class="living-example__stats-result">60 дней</span>
-            <span class="living-example__stats-type">затрачено времени</span>
+          <div class="living-example__cat-choose">
+              <img class="living-example__img--before" src="img/before-mobile@1x.png" width="311" height="232" alt="Результат ДО - толстый кот">
+              <img class="living-example__img-after visually-hidden" src="img/after-mobile@1x.png" width="311" height="232" alt="Результат ПОСЛЕ - худой кот">
+              <div class="living-example__before-after">
+                <span class="living-example__show-result">Было</span>
+                <div class="living-example__scale">
+                  <button class="living-example__scale-bar" type="button" name="scale"></button>
+                </div>
+                <span class="living-example__show-result">Стало</span>
+              </div>
           </div>
-        </div>
-        <p class="living-example__cost">Затраты на питание: 15 000 руб.</p>
-        <img class="living-example__img--before" src="img/before-mobile@1x.png" width="311" height="232" alt="Результат ДО - толстый кот">
-        <img class="living-example__img-after visually-hidden" src="img/after-mobile@1x.png" width="311" height="232" alt="Результат ПОСЛЕ - худой кот">
-        <div class="living-example__before-after">
-          <span class="living-example__show-result">Было</span>
-          <div class="living-example__scale">
-            <div class="living-example__scale-bar"></div>
-          </div>
-          <span class="living-example__show-result">Стало</span>
         </div>
       </section>
 
@@ -106,7 +114,7 @@
         <h2 class="visually-hidden">Контактные данные</h2>
         <div class="contacts__wrapper">
           <p class="contacts__dillers-info">приглашаем к сотрудничеству дилеров!</p>
-          <p class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+          <p class="contacts__adress"><span class="contact__street">ул. Большая Конюшенная, д. 19/8</span> <span class="contact__city">Санкт-Петербург</span></p>
         </div>
         <div class="contacts__map-wrapper">
           <img class="contacts__map" src="img/bg-map-mobile@1x.png" width="320" height="400" alt="Карта проезда">
