@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header page-header--inner">
       <div class="page-header__wrapper">
-        <a class="page-header__logo" href="#">
+        <a class="page-header__logo" href="index.html">
           <img class="page-header__logo-image" src="img/logo-mobile.svg" width="191" height="39" alt="Кэт энерджи">
         </a>
-        <nav class="main-nav">
+        <nav class="main-nav main-nav--closed main-nav--nojs">
           <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
           <div class="main-nav__wrapper">
             <ul class="main-nav__list">
@@ -27,6 +27,9 @@
     </header>
 
     <main class="inner-page">
+      <div class="container">
+
+      </div>
       <h1 class="inner-title">Каталог продукции</h1>
 
       <section class="catalog">
@@ -58,7 +61,7 @@
                   </table>
                 </div>
               </div>
-              <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+              <a class="single-button button catalog__button" href="#">Заказать</a>
             </div>
           </li>
 
@@ -88,7 +91,7 @@
                   </table>
                 </div>
               </div>
-              <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+              <a class="single-button button catalog__button" href="#">Заказать</a>
             </div>
           </li>
 
@@ -118,7 +121,7 @@
                   </table>
                 </div>
               </div>
-              <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+              <a class="single-button button catalog__button" href="#">Заказать</a>
             </div>
           </li>
 
@@ -148,7 +151,7 @@
                   </table>
                 </div>
               </div>
-              <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+              <a class="single-button button catalog__button" href="#">Заказать</a>
             </div>
           </li>
 
@@ -178,7 +181,7 @@
                   </table>
                 </div>
               </div>
-              <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+              <a class="single-button button catalog__button" href="#">Заказать</a>
             </div>
           </li>
 
@@ -208,7 +211,7 @@
                   </table>
                 </div>
               </div>
-              <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+              <a class="single-button button catalog__button" href="#">Заказать</a>
             </div>
           </li>
 
@@ -238,20 +241,18 @@
                   </table>
                 </div>
               </div>
-              <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+              <a class="single-button button catalog__button" href="#">Заказать</a>
             </div>
           </li>
 
           <li class="catalog__item">
             <div class="catalog__item-wrapper">
               <div class="paginator">
-                <div class="paginator__wrapper">
-                  <a class="paginator__show-more" href="#"></a>
-                  <p class="paginator__product-quantity">Показать еще 100500 товаров</p>
-                  <p class="paginator__quantity-description">На самом деле вкусов гораздо больше!</p>
-                  <a class="button button--grey" href="#">Показать все</a>
-                </div>
-                </div>
+                <a class="paginator__show-more" href="#"></a>
+                <p class="paginator__product-quantity">Показать еще 100500 товаров</p>
+                <p class="paginator__quantity-description">На самом деле вкусов гораздо больше!</p>
+                <a class="button button--grey paginator__button" href="#">Показать все</a>
+              </div>
             </div>
           </li>
         </ul>
@@ -268,7 +269,7 @@
                 <td class="other-product__features-value">200 Р.</td>
               </tr>
             </table>
-            <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+            <a class="single-button button catalog__button" href="#">Заказать</a>
           </li>
 
           <li class="other-product__item">
@@ -279,7 +280,7 @@
                 <td class="other-product__features-value">50 Р.</td>
               </tr>
             </table>
-            <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+            <a class="single-button button catalog__button" href="#">Заказать</a>
           </li>
 
           <li class="other-product__item">
@@ -290,7 +291,7 @@
                 <td class="other-product__features-value">100 Р.</td>
               </tr>
             </table>
-            <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+            <a class="single-button button catalog__button" href="#">Заказать</a>
           </li>
 
           <li class="other-product__item">
@@ -301,7 +302,7 @@
                 <td class="other-product__features-value">300 Р.</td>
               </tr>
             </table>
-            <a class="single-button button catalog__button-indentation" href="#">Заказать</a>
+            <a class="single-button button catalog__button" href="#">Заказать</a>
           </li>
         </ul>
         <div class="other-product__bonus">
@@ -361,5 +362,6 @@ c-1.4,2.1-2,2.4-2.5,2.4c-0.1,0-0.3,0-0.4-0.1c-0.7-0.4-0.7-1.4-0.7-2.1V3.9V2.6c0.
         </a>
       </div>
     </footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>
