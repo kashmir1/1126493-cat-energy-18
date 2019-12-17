@@ -60,13 +60,10 @@
   @media (min-width: $tablet-width) {
     margin: 0;
     margin-bottom: 90px;
+    margin-right: 60px;
     padding: 0;
-    width: 324px;
+    width: 40%;
     min-height: 230px;
-
-    &:nth-child(odd) {
-      margin-right: 60px;
-    }
 
     &::before {
       content: "";
@@ -94,10 +91,6 @@
     flex-basis: 245px;
     flex-shrink: 10;
     margin-right: 0;
-
-    &:nth-child(odd) {
-      margin-right: 0;
-    }
 
     &:last-child {
       margin-right: 0;
