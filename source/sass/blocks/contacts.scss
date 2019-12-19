@@ -1,4 +1,5 @@
 .contacts {
+  position: relative;
   padding-top: 30px;
 }
 
@@ -16,6 +17,17 @@
   @media (min-width: $tablet-width) {
     padding-left: 70px;
     padding-right: 70px;
+    background-color: $grey;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 100px;
+    margin-left: 110px;
+    width: 570px;
+    padding-left: 75px;
+    padding-right: 90px;
+    background-color: $white;
   }
 }
 
