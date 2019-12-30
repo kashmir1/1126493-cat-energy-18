@@ -121,8 +121,6 @@
 .promo__wrapper {
   margin-top: auto;
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
 
   @media (min-width: $tablet-width) {
     width: auto;
@@ -133,8 +131,6 @@
 .promo__button {
   display: block;
   font-size: 14px;
-  padding-left: 20px;
-  padding-right: 20px;
 
   @media (min-width: $tablet-width) {
     position: absolute;
