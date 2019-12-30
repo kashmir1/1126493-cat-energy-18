@@ -21,4 +21,12 @@
 
 .inner-title--wrapper {
   padding-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+  }
 }

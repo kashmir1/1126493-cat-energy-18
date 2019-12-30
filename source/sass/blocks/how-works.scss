@@ -6,15 +6,17 @@
   padding-top: 0;
 
   @media (min-width: $tablet-width) {
+    min-width: 708px;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 45px;
+    min-width: 1220px;
+    padding-top: 20px;
     padding-left: 110px;
-    padding-right: 98px;
+    padding-right: 110px;
   }
 }
 
@@ -55,16 +57,12 @@
   }
 
   @media (min-width: $tablet-width) {
-    align-items: flex-start;
-
-    width: 45%;
-    min-height: 200px;
-
-    margin-left: 0;
-    padding-top: 118px;
-    padding-left: 0;
-
-    font-size: 16px;
+    margin: 0;
+    margin-bottom: 90px;
+    margin-right: 60px;
+    padding: 0;
+    width: 40%;
+    min-height: 230px;
 
     &:nth-child(odd) {
       padding-right: 69px;
@@ -73,8 +71,8 @@
     &::before {
       content: "";
       position: absolute;
-      top: 0;
       left: 0;
+      top: 0;
       background-color: $green;
     }
 
@@ -93,18 +91,13 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 245px;
-    padding-right: 80px;
-    padding-left: 0;
-    // padding-right: 0;
+    flex-basis: 245px;
+    flex-shrink: 10;
+    margin-right: 0;
 
-    &:nth-child(odd) {
-      padding-right: 0;
+    &:last-child {
+      margin-right: 0;
     }
-    //
-    // &:last-child {
-    //   padding-right: 0;
-    // }
   }
 }
 
@@ -182,14 +175,16 @@
 
 .how-works__description {
   width: 100%;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     width: 250px;
     margin: 0;
+    margin-top: 40px;
+    font-size: 16px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: -5px;
     line-height: 1.5;
   }
 }

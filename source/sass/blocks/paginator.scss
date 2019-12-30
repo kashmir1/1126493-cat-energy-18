@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-}
+  padding-bottom: 25px;
 
-// .paginator__wrapper {
-//   padding-left: 20px;
-//   padding-right: 20px;
-// }
+  @media (min-width: $tablet-width) {
+    padding-bottom: 0;
+  }
+}
 
 .paginator__show-more {
   display: block;
@@ -68,6 +68,5 @@
 .paginator__button {
   @media (min-width: $tablet-width) {
     margin-top: auto;
-    margin-bottom: 40px;
   }
 }
