@@ -1,4 +1,15 @@
 .single-button {
   font-size: 16px;
   font-weight: 400;
+  width: 100%;
+}
+
+.single-button__wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }

@@ -1,5 +1,10 @@
 .catalog {
   @include main-font;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
 
 .catalog__list {
@@ -8,6 +13,7 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
     margin-top: 156px;
     padding-left: 30px;
@@ -15,12 +21,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: flex;
-    flex-wrap: wrap;
-
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 156px;
-    padding-left: 110px;
-    padding-right: 110px;
   }
 }
 
@@ -32,18 +36,24 @@
 
   box-sizing: border-box;
 
-  padding-bottom: 25px;
+  margin-bottom: 20px;
 
   border-top: 1px solid #ededed;
-  border-bottom: 1px solid #ededed;
+
+  &:last-child {
+    border-bottom: 1px solid #ededed;
+  }
 
   @media (min-width: $tablet-width) {
-    width: 45%;
+    width: 45.6%;
     min-height: 431px;
 
     background-color: $grey;
 
     margin-bottom: 140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
 
     &:nth-child(odd) {
       margin-right: 60px;
@@ -58,8 +68,12 @@
   @media (min-width: $desktop-width) {
     width: 20%;
 
+    &:nth-child(odd) {
+      margin-right: 6.6%;
+    }
+
     margin-bottom: 142px;
-    margin-right: 80px;
+    margin-right: 6.6%;
 
     &:nth-child(4n) {
       margin-right: 0;
@@ -79,6 +93,7 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
 }
 
@@ -98,6 +113,7 @@
 
   @media (min-width: $tablet-width) {
     align-items: center;
+    margin-top: 105px;
   }
 }
 
@@ -109,13 +125,16 @@
 .catalog__product-title {
   width: 72px;
 
+  margin-top: 20px;
+  margin-bottom: 10px;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
-    width: 124px;
+    width: 130px;
     text-align: center;
     font-size: 20px;
   }
@@ -141,12 +160,28 @@
 
 .catalog__features-property {
   text-align: left;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
 
 .catalog__features-value {
   text-align: right;
 }
 
-.catalog__button-indentation {
-  margin-top: 27px;
+.catalog__button {
+  margin-top: auto;
+  // margin-bottom: 40px;
+
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.catalog__catalog-image {
+  @media (min-width: $tablet-width) {
+    margin-top: -110px;
+    line-height: 1;
+  }
 }
