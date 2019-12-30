@@ -48,6 +48,7 @@
 .living-example__act {
   padding-top: 30px;
   padding-bottom: 20px;
+
   @include content-font;
 
   @media (min-width: $tablet-width) {
