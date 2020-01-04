@@ -18,6 +18,21 @@
 }
 
 .living-example__wrapper {
+  width: 100%;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      min-height: 379px;
+      width: 50%;
+      background-color: #eaeaea;
+    }
+  }
+
   @media (min-width: $desktop-width) {
     display: flex;
     background-color: $grey;
@@ -162,6 +177,8 @@
 }
 
 .living-example__cat-choose {
+  position: relative;
+
   @media (min-width: $tablet-width) {
     margin-top: 260px;
     padding-bottom: 60px;
@@ -170,6 +187,36 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 0;
+  }
+}
+
+.living-example__cat-choose-wrapper {
+  position: relative;
+  min-height: 250px;
+  z-index: 1;
+}
+
+.living-example__img-before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @media (min-width: $tablet-width) {
+    top: -240px;
+    clip: rect(auto, 365px, auto, auto);
+  }
+}
+
+.living-example__img-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+
+  @media (min-width: $tablet-width) {
+    top: -240px;
+    opacity: 1;
+    clip: rect(auto, auto, auto, 365px);
   }
 }
 
@@ -203,6 +250,7 @@
   background-color: $white;
   border-radius: 6px;
   border: solid 1px #cdcdcd;
+  z-index: 1;
 
   @media (min-width: $tablet-width) {
     justify-content: center;
