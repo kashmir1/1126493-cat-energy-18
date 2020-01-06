@@ -1,6 +1,6 @@
 .living-example {
   background-color: $grey;
-  padding-top: 33px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 38px;
@@ -61,10 +61,12 @@
 }
 
 .living-example__act {
-  padding-top: 30px;
+  margin-bottom: 5px;
+  padding-top: 20px;
   padding-bottom: 20px;
 
   @include content-font;
+  white-space: pre-wrap;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -76,6 +78,8 @@
 }
 
 .living-example__total-wrapper {
+
+
   @media (min-width: $tablet-width) {
     display: flex;
     justify-content: space-between;
@@ -92,6 +96,8 @@
   justify-content: center;
 
   @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: center;
     justify-content: flex-start;
   }
 }
@@ -129,7 +135,7 @@
 .living-example__stats-type {
   max-width: 57px;
   position: absolute;
-  bottom: -25px;
+  bottom: -20px;
   padding-left: 15px;
   padding-right: 15px;
   display: inline-block;
@@ -152,7 +158,8 @@
 }
 
 .living-example__cost {
-  margin-top: 50px;
+  width: 100%;
+  margin-top: 35px;
   text-align: center;
   font-size: 14px;
   font-weight: 400;
@@ -198,8 +205,8 @@
 
 .living-example__img-before {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: -20px;
 
   @media (min-width: $tablet-width) {
     top: -240px;
@@ -225,7 +232,7 @@
   align-items: center;
   justify-content: center;
 
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 .living-example__show-result {
@@ -241,12 +248,14 @@
 }
 
 .living-example__scale {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   width: 84px;
   height: 14px;
   margin-left: 19px;
   margin-right: 19px;
+  padding-left: 5px;
   background-color: $white;
   border-radius: 6px;
   border: solid 1px #cdcdcd;

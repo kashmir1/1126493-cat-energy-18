@@ -3,7 +3,8 @@
 
   @include main-font;
   padding: 20px;
-  padding-top: 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
 
   @media (min-width: $tablet-width) {
     min-width: 708px;
@@ -44,6 +45,7 @@
   align-items: center;
   position: relative;
   min-height: 60px;
+  margin-bottom: 20px;
 
   @include content-font;
   margin-left: 60px;
