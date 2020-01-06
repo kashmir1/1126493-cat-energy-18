@@ -154,8 +154,13 @@
 .promo__img {
   margin-top: 30px;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     position: absolute;
+    top: 200px;
+    left: 25px;
+  }
+
+  @media (min-width: $desktop-width) {
     top: 43px;
     left: 550px;
   }
