@@ -35,7 +35,10 @@
   }
 
   @media (min-width: $desktop-width) {
+    box-sizing: border-box;
     display: flex;
+    //justify-content: space-between;
+    margin-top: 75px;
     background-color: $grey;
   }
 }
@@ -52,11 +55,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 570px;
+    box-sizing: border-box;
 
-    justify-content: flex-start;
     padding-left: 110px;
-    padding-right: 40px;
+    padding-right: 0;
 
     background-color: $grey;
   }
@@ -93,6 +95,8 @@
 
   @media (min-width: $desktop-width) {
     flex-direction: column;
+    align-items: flex-start;
+    margin-top: 45px;
   }
 }
 
@@ -189,6 +193,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 330px;
+    margin-top: 55px;
   }
 }
 
@@ -197,6 +202,10 @@
     display: inline-block;
     vertical-align: baseline;
     margin-bottom: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
   }
 }
 
@@ -218,19 +227,23 @@
 
 .living-example__cat-choose-wrapper {
   position: relative;
-  min-height: 250px;
+  min-height: 251px;
   z-index: 1;
-
 
   display: flex;
 }
 
-.cat {
+.living-example__cat-wrapper {
   @media (min-width: $tablet-width) {
     position: relative;
-    width: 768px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -241,8 +254,15 @@
 
   @media (min-width: $tablet-width) {
     top: -170px;
-    left: 40px;
-    clip: rect(auto, 345px, auto, auto);
+    left: 20px;
+
+    clip: rect(auto, 340px, auto, auto);
+  }
+
+  @media (min-width: $desktop-width) {
+    top: -190px;
+    left: 25px;
+    clip: rect(auto, 370px, auto, auto);
   }
 }
 
@@ -254,9 +274,15 @@
 
   @media (min-width: $tablet-width) {
     top: -170px;
-    left: 50px;
+    left: 20px;
     opacity: 1;
-    clip: rect(auto, auto, auto, 335px);
+    clip: rect(auto, auto, auto, 340px);
+  }
+
+  @media (min-width: $desktop-width) {
+    top: -190px;
+    left: 25px;
+    clip: rect(auto, auto, auto, 360px);
   }
 }
 

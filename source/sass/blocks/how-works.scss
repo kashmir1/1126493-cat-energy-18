@@ -16,9 +16,10 @@
 
   @media (min-width: $desktop-width) {
     min-width: 1220px;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 110px;
     padding-right: 110px;
+    padding-bottom: 0;
   }
 }
 
@@ -37,6 +38,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 100%;
     justify-content: space-between;
   }
 }
@@ -103,10 +105,16 @@
     flex-basis: 245px;
     flex-shrink: 10;
     margin-right: 0;
+    margin-bottom: 30px;
 
     &:last-child {
       margin-right: 0;
     }
+
+    &:nth-child(n+3) {
+      margin-bottom: 30px;
+    }
+
   }
 }
 

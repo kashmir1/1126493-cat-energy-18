@@ -7,6 +7,10 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
+  }
 }
 
 .result-choose__list {
@@ -109,7 +113,7 @@
 
   @media (min-width: $desktop-width) {
     top: 41px;
-    left: 65px;
+    left: 60px;
     width: 71px;
     height: 97px;
   }

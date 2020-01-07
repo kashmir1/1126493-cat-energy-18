@@ -24,13 +24,13 @@
   @media (min-width: $tablet-width) {
     flex-direction: row;
     justify-content: flex-start;
-    min-height: 820px; //Временно до лекции адаптивных картинок
+    min-height: 820px; 
   }
 
   @media (min-width: $desktop-width) {
     flex-direction: row-reverse;
     justify-content: space-between;
-    min-height: 555px; //Временно до лекции адаптивных картинок
+    min-height: 580px;
 
     &::after {
       content: "";
@@ -149,6 +149,10 @@
 
     font-size: 20px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 10px;
+  }
 }
 
 .promo__img {
@@ -161,7 +165,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: 43px;
-    left: 550px;
+    top: -75px;
+    left: 560px;
   }
 }
