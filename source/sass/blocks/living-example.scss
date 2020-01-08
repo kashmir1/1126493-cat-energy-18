@@ -22,7 +22,6 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-
     &::after {
       content: "";
       position: absolute;
@@ -88,7 +87,6 @@
 }
 
 .living-example__total-wrapper {
-
   @media (min-width: $tablet-width) {
     display: flex;
     align-items: center;
@@ -110,7 +108,6 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    justify-content: center;
     justify-content: flex-start;
   }
 }
@@ -243,10 +240,9 @@
   width: 280px;
   margin-left: auto;
   margin-right: auto;
+
   @media (min-width: $tablet-width) {
-
     width: 700px;
-
   }
 
   @media (min-width: $desktop-width) {
