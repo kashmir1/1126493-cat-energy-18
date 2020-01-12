@@ -41,4 +41,8 @@
 .main-title--promo {
   margin-top: 30px;
   line-height: 1;
+
+  @media (min-width: $desktop-width) {
+    margin-top: 35px;
+  }
 }

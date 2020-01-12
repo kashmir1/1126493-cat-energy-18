@@ -7,6 +7,10 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
+  }
 }
 
 .result-choose__list {
@@ -59,7 +63,7 @@
       display: block;
       content: "";
       position: absolute;
-      right: 60px;
+      right: 50px;
       top: 93px;
       width: 200px;
       height: 200px;
@@ -102,14 +106,14 @@
 
   @media (min-width: $tablet-width) {
     top: 80px;
-    right: 90px;
+    right: 80px;
     width: 141px;
     height: 194px;
   }
 
   @media (min-width: $desktop-width) {
     top: 41px;
-    left: 65px;
+    left: 60px;
     width: 71px;
     height: 97px;
   }
@@ -129,7 +133,7 @@
   @media (min-width: $tablet-width) {
     margin: 0;
     top: 140px;
-    right: 30px;
+    right: 20px;
     width: 268px;
     height: 113px;
   }
