@@ -7,8 +7,10 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 
+    min-height: 150px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -39,26 +41,21 @@
 
 .page-footer__social {
   box-sizing: border-box;
-
   display: flex;
+  align-items: center;
   justify-content: center;
-  // margin-left: 20px;
-  // margin-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  min-height: 70px;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
-}
 
-// .social__list {
-//   margin: 0;
-// }
+  @media (min-width: $tablet-width) {
+    border: 0;
+  }
+}
 
 .page-footer__copyright {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
-  // margin-left: 20px;
-  // margin-right: 20px;
+  margin-top: 10px;
 }

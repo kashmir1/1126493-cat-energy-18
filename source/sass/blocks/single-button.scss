@@ -9,7 +9,14 @@
   padding-right: 20px;
 
   @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
     padding-left: 70px;
     padding-right: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }
