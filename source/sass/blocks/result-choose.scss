@@ -112,7 +112,7 @@
 
   @media (min-width: $desktop-width) {
     top: 41px;
-    left: 60px;
+    left: 70px;
     width: 71px;
     height: 97px;
   }
@@ -140,7 +140,7 @@
   @media (min-width: $desktop-width) {
     margin: 0;
     top: 69px;
-    left: 34px;
+    left: 45px;
     width: 134px;
     height: 57px;
   }
@@ -217,6 +217,11 @@
     height: 12px;
     background-image: url("../img/icon-right-arrow-long.svg");
     background-repeat: no-repeat;
+
+    @media (min-width: $desktop-width) {
+      margin-left: 25px;
+      top: 7px;
+    }
   }
 
   @media (min-width: $tablet-width) {

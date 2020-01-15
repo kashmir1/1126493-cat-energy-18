@@ -38,12 +38,12 @@
     display: flex;
     //justify-content: space-between;
     margin-top: 75px;
-    padding-right: 110px;
-    padding-left: 110px;
+    padding-right: 40px;
+    padding-left: 40px;
     background-color: $grey;
 
     &::after {
-      width: 380px;
+      width: 325px;
     }
   }
 }
@@ -222,6 +222,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 650px; //временно
     margin-top: 0;
     margin-left: auto;
   }
@@ -266,8 +267,8 @@
 
   @media (min-width: $desktop-width) {
     top: -190px;
-    left: -30px;
-    clip: rect(auto, 370px, auto, auto);
+    left: 0;
+    clip: rect(auto, 365px, auto, auto);
   }
 }
 
@@ -286,8 +287,8 @@
 
   @media (min-width: $desktop-width) {
     top: -190px;
-    left: -20px;
-    clip: rect(auto, auto, auto, 360px);
+    left: 0;
+    clip: rect(auto, auto, auto, 365px);
   }
 }
 
@@ -303,8 +304,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 540px;
-    margin-left: 70px;
+    width: 570px;
+    margin-left: 80px;
   }
 }
 

@@ -58,3 +58,9 @@
     padding: 0;
   }
 }
+
+.page-header__logo-img {
+  @media (min-width: $desktop-width) {
+    width: 205px;
+  }
+}
