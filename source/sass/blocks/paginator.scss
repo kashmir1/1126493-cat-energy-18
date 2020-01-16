@@ -65,6 +65,10 @@
     margin-bottom: 65px;
     font-size: 16px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 20px;
+  }
 }
 
 .paginator__button {
