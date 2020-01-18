@@ -236,14 +236,31 @@
         top: -5px;
         width: 12px;
         height: 12px;
-        background-color: $green;
-        background-clip: content-box;
         border-radius: 50%;
         border: 1px solid #cdcdcd;
 
         @media (min-width: $tablet-width) {
           width: 20px;
           height: 20px;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 8px;
+        top: 3px;
+        width: 12px;
+        height: 12px;
+        background-color: $green;
+        background-clip: content-box;
+        border-radius: 50%;
+
+        @media (min-width: $tablet-width) {
+          left: 9px;
+          top: 4px;
+          width: 18px;
+          height: 18px;
         }
       }
 
@@ -453,7 +470,7 @@
     //width: 1290px;
     margin-bottom: 25px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 0;
   }
 }
 
