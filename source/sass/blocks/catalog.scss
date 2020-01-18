@@ -137,7 +137,7 @@
 .catalog__product-title {
   width: 85px;
 
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 
   font-size: 16px;
@@ -146,6 +146,7 @@
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
+    margin-top: 10px;
     width: 130px;
     text-align: center;
     font-size: 20px;
@@ -191,7 +192,6 @@
 
 .catalog__button {
   margin-top: auto;
-  // margin-bottom: 40px;
 
   padding-top: 11px;
   padding-bottom: 11px;

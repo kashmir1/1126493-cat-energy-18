@@ -36,6 +36,7 @@
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 20px;
+  margin-bottom: 10px;
 
   @media (min-width: $tablet-width) {
     width: 135px;
@@ -51,6 +52,7 @@
 .paginator__quantity-description {
   text-align: center;
   margin-top: 0;
+
 
   @include content-font;
   font-size: 12px;
@@ -72,6 +74,8 @@
 }
 
 .paginator__button {
+  margin-top: 5px;
+
   @media (min-width: $tablet-width) {
     margin-top: auto;
   }
