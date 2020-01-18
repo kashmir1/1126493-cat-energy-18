@@ -216,6 +216,7 @@
 
 .living-example__cat-choose {
   position: relative;
+  overflow: hidden;
 
   @media (min-width: $tablet-width) {
 
@@ -223,6 +224,7 @@
     margin-top: 245px;
     padding-bottom: 60px;
     background-color: $grey;
+    overflow: visible;
   }
 
   @media (min-width: $desktop-width) {
