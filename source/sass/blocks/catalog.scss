@@ -23,7 +23,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    justify-content: center;
+    min-width: 1220px;
     padding-left: 0;
     padding-right: 0;
     margin-top: 150px;
@@ -211,7 +211,9 @@
   }
 
   @media (min-width: $desktop-width) {
+    width: 245px;
+    overflow: hidden;
     margin-top: -100px;
-    margin-left: 0;
+    margin-left: -70px;
   }
 }
