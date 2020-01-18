@@ -38,7 +38,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 100%;
+    min-width: 1220px;
+    padding-top: 30px;
     justify-content: space-between;
   }
 }
@@ -201,6 +202,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    margin-top: 70px;
     line-height: 1.5;
   }
 }

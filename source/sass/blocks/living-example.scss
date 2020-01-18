@@ -13,7 +13,10 @@
   }
 
   @media (min-width: $desktop-width) {
+    box-sizing: border-box;
     border: 0;
+    padding-top: 50px;
+    overflow-x: hidden;
   }
 }
 
@@ -43,7 +46,7 @@
     background-color: $grey;
 
     &::after {
-      width: 325px;
+      width: 310px;
     }
   }
 }
@@ -96,6 +99,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    box-sizing: border-box;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 45px;
@@ -234,6 +238,11 @@
   z-index: 1;
 
   display: flex;
+
+  @media (min-width: $desktop-width) {
+    margin-left: 10px;
+    box-sizing: content-box;
+  }
 }
 
 .living-example__cat-wrapper {
@@ -266,8 +275,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: -190px;
-    left: 0;
+    top: -195px;
+    left: 5px;
     clip: rect(auto, 365px, auto, auto);
   }
 }
@@ -286,8 +295,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: -190px;
-    left: 0;
+    top: -195px;
+    left: 5px;
     clip: rect(auto, auto, auto, 365px);
   }
 }
@@ -305,7 +314,8 @@
 
   @media (min-width: $desktop-width) {
     width: 570px;
-    margin-left: 80px;
+    margin-top: 110px;
+    margin-left: 95px;
   }
 }
 

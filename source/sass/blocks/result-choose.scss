@@ -10,6 +10,8 @@
 
   @media (min-width: $desktop-width) {
     padding-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -18,7 +20,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-
+    min-width: 1220px;
     margin-top: 60px;
   }
 }
@@ -73,7 +75,7 @@
 
     margin-right: 0;
     padding-top: 47px;
-    padding-left: 60px;
+    padding-left: 55px;
     padding-right: 20px;
 
     &:first-child {
@@ -84,7 +86,7 @@
       display: block;
       content: "";
       position: absolute;
-      left: 60px;
+      left: 50px;
       top: 47px;
       width: 100px;
       height: 100px;
@@ -112,7 +114,7 @@
 
   @media (min-width: $desktop-width) {
     top: 41px;
-    left: 70px;
+    left: 55px;
     width: 71px;
     height: 97px;
   }
@@ -140,7 +142,7 @@
   @media (min-width: $desktop-width) {
     margin: 0;
     top: 69px;
-    left: 45px;
+    left: 35px;
     width: 134px;
     height: 57px;
   }
@@ -162,7 +164,7 @@
 
   @media (min-width: $desktop-width) {
     padding-top: 30px;
-    padding-left: 164px;
+    padding-left: 160px;
     padding-bottom: 50px;
     font-size: 36px;
   }
