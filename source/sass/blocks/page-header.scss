@@ -60,7 +60,14 @@
 }
 
 .page-header__logo-img {
+
+  @media (min-width: $tablet-width) {
+    margin-top: 5px;
+    width: 173px;
+  }
+
   @media (min-width: $desktop-width) {
+    margin-top: 0;
     width: 205px;
   }
 }
