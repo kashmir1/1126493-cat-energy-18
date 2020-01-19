@@ -13,7 +13,10 @@
   }
 
   @media (min-width: $desktop-width) {
+    box-sizing: border-box;
     border: 0;
+    padding-top: 50px;
+    overflow-x: hidden;
   }
 }
 
@@ -28,7 +31,7 @@
       bottom: 0;
       right: 0;
       min-height: 455px;
-      width: 50%;
+      width: 49%;
       background-color: #eaeaea;
     }
   }
@@ -38,12 +41,12 @@
     display: flex;
     //justify-content: space-between;
     margin-top: 75px;
-    padding-right: 110px;
-    padding-left: 110px;
+    padding-right: 40px;
+    padding-left: 40px;
     background-color: $grey;
 
     &::after {
-      width: 380px;
+      width: 310px;
     }
   }
 }
@@ -96,6 +99,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    box-sizing: border-box;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 45px;
@@ -212,6 +216,7 @@
 
 .living-example__cat-choose {
   position: relative;
+  overflow: hidden;
 
   @media (min-width: $tablet-width) {
 
@@ -219,9 +224,11 @@
     margin-top: 245px;
     padding-bottom: 60px;
     background-color: $grey;
+    overflow: visible;
   }
 
   @media (min-width: $desktop-width) {
+    width: 650px;
     margin-top: 0;
     margin-left: auto;
   }
@@ -233,6 +240,11 @@
   z-index: 1;
 
   display: flex;
+
+  @media (min-width: $desktop-width) {
+    margin-left: 10px;
+    box-sizing: content-box;
+  }
 }
 
 .living-example__cat-wrapper {
@@ -265,9 +277,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: -190px;
-    left: -30px;
-    clip: rect(auto, 370px, auto, auto);
+    top: -195px;
+    left: 5px;
+    clip: rect(auto, 365px, auto, auto);
   }
 }
 
@@ -285,9 +297,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    top: -190px;
-    left: -20px;
-    clip: rect(auto, auto, auto, 360px);
+    top: -195px;
+    left: 5px;
+    clip: rect(auto, auto, auto, 365px);
   }
 }
 
@@ -300,11 +312,13 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 115px;
+    margin-left: 15px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 540px;
-    margin-left: 70px;
+    width: 570px;
+    margin-top: 110px;
+    margin-left: 95px;
   }
 }
 

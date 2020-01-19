@@ -1,11 +1,18 @@
 .social__list {
   display: flex;
   align-items: center;
+  margin-right: 10px;
 
   @include list;
 
   @media (min-width: $tablet-width) {
     margin-left: 40px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 20px;
     margin-bottom: 5px;
   }
 }
