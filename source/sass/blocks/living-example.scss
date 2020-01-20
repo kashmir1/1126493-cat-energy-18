@@ -51,6 +51,29 @@
   }
 }
 
+.living-example__title {
+  margin: 0;
+  color: $dark-grey;
+  font-size: 36px;
+  font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+  }
+}
+
+.living-example__title--indent {
+  @media (min-width: $tablet-width) {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
 .living-example__description {
   @media (min-width: $tablet-width) {
     display: flex;
@@ -325,7 +348,10 @@
 .living-example__show-result {
   font-size: 16px;
   color: $dark-grey;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.0);
   text-transform: uppercase;
+  cursor: pointer;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;

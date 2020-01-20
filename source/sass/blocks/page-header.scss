@@ -60,13 +60,17 @@
 }
 
 .page-header__logo-img {
+
+
   @media (min-width: $tablet-width) {
     margin-top: 5px;
     width: 173px;
+    height: 58px;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 0;
     width: 205px;
+    height: 59px;
   }
 }

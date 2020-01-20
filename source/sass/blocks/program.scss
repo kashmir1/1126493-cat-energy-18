@@ -363,7 +363,7 @@
   }
 }
 
-.program__icon--email {
+.program__icon-email {
   position: absolute;
   right: 15px;
   width: 18px;
@@ -392,7 +392,7 @@
   }
 }
 
-.program__icon--phone {
+.program__icon-phone {
   position: absolute;
   right: 10px;
   width: 21px;
@@ -472,7 +472,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    flex-wrap: nowrap;
     justify-content: flex-start;
     box-sizing: border-box;
     width: 1280px;
@@ -595,5 +594,22 @@
 
   @media (min-width: $desktop-width) {
     width: 570px;
+  }
+}
+
+.program__button-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }

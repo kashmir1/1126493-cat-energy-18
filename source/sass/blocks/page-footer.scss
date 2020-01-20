@@ -41,21 +41,6 @@
   margin-bottom: 31px;
 }
 
-.page-footer__social {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 70px;
-  border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
-
-  @media (min-width: $tablet-width) {
-    border: 0;
-    margin-right: 10px;
-  }
-}
-
 .page-footer__copyright {
   display: flex;
   align-items: center;

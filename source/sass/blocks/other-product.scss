@@ -298,7 +298,13 @@
 }
 
 .other-product__button {
+  margin-top: auto;
+
+  padding-top: 11px;
+  padding-bottom: 11px;
+
   @media (min-width: $desktop-width) {
     width: 245px;
   }
 }
+

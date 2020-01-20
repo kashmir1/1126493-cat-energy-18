@@ -1,3 +1,18 @@
+.social {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    border: 0;
+    margin-right: 10px;
+  }
+}
+
 .social__list {
   display: flex;
   flex-wrap: wrap;
@@ -30,7 +45,7 @@
   }
 }
 
-.social__link--vk-icon {
+.social__vk {
   width: 22px;
   height: 12px;
   fill: #666666;
@@ -50,7 +65,7 @@
   }
 }
 
-.social__link--insta-icon {
+.social__insta {
   width: 17px;
   height: 17px;
   fill: #666666;
@@ -70,7 +85,7 @@
   }
 }
 
-.social__link--fb-icon {
+.social__fb {
   width: 10px;
   height: 19px;
   fill: #666666;
