@@ -16,8 +16,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 110px;
-    padding-right: 110px;
+    box-sizing: border-box;
+    min-width: 1220px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -50,6 +52,7 @@
 
   @media (min-width: $tablet-width) {
     border: 0;
+    margin-right: 10px;
   }
 }
 
@@ -57,5 +60,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-right: -5px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 10px;
+    margin-right: -20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 0;
+  }
 }

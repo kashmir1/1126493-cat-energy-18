@@ -25,4 +25,8 @@
     fill: $green;
     opacity: 0.3;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-right: -20px;
+  }
 }
