@@ -175,11 +175,13 @@
 .catalog__product-features {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 5px;
 
   @include content-font;
   font-size: 12px;
 
   @media (min-width: $tablet-width) {
+    margin-top: 0;
     font-size: 16px;
   }
 }
