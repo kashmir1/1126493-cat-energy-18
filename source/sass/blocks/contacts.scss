@@ -75,12 +75,13 @@
   @media (min-width: $desktop-width) {
     text-align: left;
     margin-top: 0;
+    line-height: 22px;
     margin-left: 90px;
   }
 }
 
 
-.contact__city {
+.contacts__city {
   @media (min-width: $tablet-width) {
     display: inline-block;
     vertical-align: baseline;
@@ -88,7 +89,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 10px;
+    margin-top: 15px;
   }
 }
 
