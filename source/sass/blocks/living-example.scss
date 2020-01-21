@@ -3,7 +3,7 @@
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 38px;
+  padding-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -15,7 +15,7 @@
   @media (min-width: $desktop-width) {
     box-sizing: border-box;
     border: 0;
-    padding-top: 50px;
+    padding-top: 45px;
     overflow-x: hidden;
   }
 }
@@ -94,14 +94,14 @@
 
 .living-example__act {
   margin-bottom: 5px;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 20px;
 
   @include content-font;
   white-space: pre-wrap;
 
   @media (min-width: $tablet-width) {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 16px;
     width: 677px;
     white-space: normal;
@@ -109,6 +109,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    margin-top: 20px;
     width: 435px;
   }
 }
@@ -145,7 +146,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 37px;
+  margin-right: 30px;
   position: relative;
   max-width: 162px;
   min-width: 124px;
@@ -183,7 +184,7 @@
 .living-example__stats-type {
   max-width: 57px;
   position: absolute;
-  bottom: -20px;
+  bottom: -19px;
   padding-left: 15px;
   padding-right: 15px;
   display: inline-block;
@@ -197,6 +198,8 @@
   @media (min-width: $tablet-width) {
     max-width: 127px;
     bottom: -10px;
+    padding-left: 12px;
+    padding-right: 12px;
     font-size: 14px;
     background-color: $white;
   }
@@ -229,7 +232,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 330px;
-    margin-top: 60px;
+    margin-top: 50px;
   }
 }
 
@@ -239,11 +242,11 @@
   @media (min-width: $tablet-width) {
     display: inline-block;
     vertical-align: baseline;
-    margin-bottom: 10px;
+    line-height: 30px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 0;
+    margin-top: 0;
   }
 }
 
@@ -344,11 +347,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-top: 45px;
+  margin-top: 42px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 110px;
+    margin-top: 115px;
     margin-left: 0;
   }
 
@@ -379,10 +381,10 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  width: 84px;
+  width: 85px;
   height: 14px;
-  margin-left: 19px;
-  margin-right: 19px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-left: 5px;
   background-color: $white;
   border-radius: 6px;
