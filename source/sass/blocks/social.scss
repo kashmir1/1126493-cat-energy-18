@@ -22,9 +22,9 @@
   @include list;
 
   @media (min-width: $tablet-width) {
-    margin-left: 40px;
+    margin-left: 28px;
     margin-right: 0;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   @media (min-width: $desktop-width) {
