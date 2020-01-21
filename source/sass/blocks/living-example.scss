@@ -226,6 +226,8 @@
 }
 
 .living-example__cost-description {
+  color: $dark-grey;
+
   @media (min-width: $tablet-width) {
     display: inline-block;
     vertical-align: baseline;
@@ -235,6 +237,10 @@
   @media (min-width: $desktop-width) {
     margin-bottom: 0;
   }
+}
+
+.living-example__total-price {
+  color: $dark-grey;
 }
 
 .living-example__cat-choose {
