@@ -19,6 +19,15 @@
       top: 20px;
     }
   }
+
+  @media (min-width: $desktop-width) {
+
+    padding-bottom: 65px;
+
+    &::before {
+      top: 20px;
+    }
+  }
 }
 
 .other-product__wrapper {
@@ -79,7 +88,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 0;
+    margin-top: 2px;
     padding-left: 40px;
     padding-right: 0;
   }
@@ -131,7 +140,6 @@
 
   @media (min-width: $desktop-width) {
     margin: 0;
-    margin-right: 40px;
     width: 615px;
   }
 }
@@ -171,7 +179,7 @@
   @media (min-width: $desktop-width) {
     width: 100%;
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: 6px;
   }
 }
 
@@ -193,13 +201,18 @@
   @media (min-width: $desktop-width) {
     box-sizing: border-box;
     text-align: left;
-    padding-left: 120px;
+    padding-left: 110px;
   }
 }
 
 .other-product__features-value {
   text-align: right;
   width: 80px;
+
+  @media (min-width: $desktop-width) {
+    text-align: right;
+    width: 140px;
+  }
 }
 
 .other-product__bonus {
@@ -244,7 +257,7 @@
     min-width: 245px;
     height: 290px;
     margin: 0;
-    margin-right: 30px;
+    margin-right: 40px;
     background-image: url("../img/gift-photo-desktop@1x.jpg");
 
     @media (min-resolution: $retina-dppx) {
@@ -305,6 +318,7 @@
 
   @media (min-width: $desktop-width) {
     width: 245px;
+    margin-left: 38px;
   }
 }
 
