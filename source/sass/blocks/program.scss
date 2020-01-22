@@ -4,7 +4,7 @@
   box-sizing: border-box;
 
   @media (min-width: $tablet-width) {
-    padding-bottom: 75px;
+    padding-bottom: 65px;
   }
 }
 
@@ -28,6 +28,7 @@
 
   @media (min-width: $tablet-width) {
     width: 325px;
+    margin-top: -5px;
     padding-left: 70px;
     font-size: 20px;
     line-height: 28px;
@@ -35,7 +36,6 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 40px;
-    margin-top: -5px;
   }
 }
 
@@ -76,7 +76,7 @@
   padding-bottom: 5px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 60px;
+    margin-top: 70px;
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 0;
@@ -146,12 +146,9 @@
   }
 
   @media (min-width: $tablet-width) {
+    padding-left: 20px;
     height: 50px;
     font-size: 20px;
-  }
-
-  @media (min-width: $desktop-width) {
-   padding-left: 20px;
   }
 }
 
@@ -166,10 +163,12 @@
     display: flex;
     flex-direction: column;
     min-width: 580px;
-    min-height: 180px;
+    min-height: 175px;
+
     margin-left: 70px;
     margin-right: 70px;
-    margin-top: 75px;
+    margin-top: 70px;
+    margin-bottom: 60px;
 
     padding-top: 21px;
     padding-left: 30px;
@@ -214,7 +213,7 @@
 }
 
 .program-label--contact-indent {
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     margin-right: 20px;
   }
 }
@@ -371,14 +370,15 @@
 
   @media (min-width: $tablet-width) {
     min-width: 650px;
+    margin-bottom: 20px;
   }
 
   @media (min-width: $desktop-width) {
-    //flex-grow: 1;
     justify-content: flex-start;
     min-width: 570px;
     padding-left: 0;
     margin-right: 80px;
+    margin-bottom: 15px;
 
     &:last-child {
       margin-right: 0;
@@ -403,7 +403,7 @@
   fill: #222222;
 
   @media (min-width: $tablet-width) {
-    right: 20px;
+    right: 17px;
   }
 
   @media (min-width: $desktop-width) {
@@ -432,7 +432,7 @@
   fill: #222222;
 
   @media (min-width: $tablet-width) {
-    right: 20px;
+    right: 15px;
   }
 
   @media (min-width: $desktop-width) {
@@ -450,9 +450,10 @@
   padding-right: 40px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 40px;
+    margin-top: 35px;
+    margin-bottom: -10px;
     padding-left: 70px;
-    padding-right: 70px;
+    padding-right: 87px;
   }
 
   @media (min-width: $desktop-width) {
@@ -478,16 +479,12 @@
   }
 
   @media (min-width: $tablet-width) {
-    height: 165px;
+    padding-top: 15px;
+    height: 160px;
 
     &::placeholder {
       font-size: 20px;
     }
-  }
-
-  @media (min-width: $desktop-width) {
-    padding-top: 15px;
-    height: 160px;
   }
 }
 
@@ -505,7 +502,7 @@
     width: 580px;
     margin-top: 55px;
     padding-left: 70px;
-    padding-right: 120px;
+    margin-bottom: 10px;
   }
 
   @media (min-width: $desktop-width) {
@@ -525,7 +522,7 @@
 
   @media (min-width: $tablet-width) {
     width: 234px;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
   }
 
   @media (min-width: $desktop-width) {
@@ -611,7 +608,7 @@
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    margin-left: 60px;
+    margin-left: 65px;
     margin-top: 0;
     font-size: 16px;
   }
@@ -624,10 +621,11 @@
 .program__button {
   width: 100%;
   margin-top: 35px;
+  border: 0;
 
   @media (min-width: $tablet-width) {
     width: 280px;
-    margin-top: 0;
+    margin-top: 5px;
     font-size: 20px;
   }
 
