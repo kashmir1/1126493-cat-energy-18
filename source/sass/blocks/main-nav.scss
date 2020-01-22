@@ -22,8 +22,6 @@
   right: 20px;
 
   background-color: $white;
-  opacity: 0;
-  // background-color: $green; // проверить позиционирование
   border: 0;
   width: 25px;
   height: 25px;
@@ -39,9 +37,8 @@
   &::before {
     content: "";
     position: absolute;
-    top: -30px;
-    right: 20px;
-    // z-index: 1;
+    top: 0px;
+    right: 0;
 
     background-image: url("../img/icon-mobile-menu.svg");
     background-repeat: no-repeat;
@@ -54,7 +51,7 @@
   }
 }
 
-.main-nav--closed .main-nav__item {
+.main-nav--closed ~ .main-nav__wrapper {
   display: none;
 
   @media (min-width: $tablet-width) {
@@ -66,9 +63,9 @@
   &::before {
     content: "";
     position: absolute;
-    top: -28px;
-    right: 20px;
-    // z-index: 1;
+    top: -0;
+    right: 0;
+
 
     background-image: url("../img/icon-close.svg");
     background-repeat: no-repeat;
@@ -172,4 +169,5 @@
 .main-nav--nojs .main-nav__item {
   display: block;
 }
+
 // без js
