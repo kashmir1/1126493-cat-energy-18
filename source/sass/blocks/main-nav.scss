@@ -31,7 +31,7 @@
   }
 }
 
-.main-nav--closed {
+.main-nav__toggle--closed {
   &::before {
     content: "";
     position: absolute;
@@ -49,7 +49,7 @@
   }
 }
 
-.main-nav--closed ~ .main-nav__wrapper {
+.main-nav__toggle--closed ~ .main-nav__wrapper {
   display: none;
 
   @media (min-width: $tablet-width) {
@@ -57,7 +57,7 @@
   }
 }
 
-.main-nav--opened {
+.main-nav__toggle--opened {
   &::before {
     content: "";
     position: absolute;
