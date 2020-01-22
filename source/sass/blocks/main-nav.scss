@@ -35,7 +35,7 @@
   &::before {
     content: "";
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
 
     background-image: url("../img/icon-mobile-menu.svg");
@@ -160,18 +160,16 @@
 }
 
 // без js
-.main-nav--nojs .main-nav__toggle--closed {
-  display: none;
-}
-
-.main-nav--nojs .main-nav__toggle--closed {
-  ~ .main-nav__wrapper {
-    display: block;
-  }
-}
-
 .main-nav--nojs {
   display: block;
+
+  .main-nav__toggle--closed {
+    display: none;
+
+    ~ .main-nav__wrapper {
+      display: block;
+    }
+  }
 }
 
 .main-nav--nojs .main-nav__item {

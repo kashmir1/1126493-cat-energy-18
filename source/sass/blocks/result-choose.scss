@@ -16,7 +16,6 @@
 }
 
 .result-choose__list {
-
   @include list;
 
   @media (min-width: $desktop-width) {
