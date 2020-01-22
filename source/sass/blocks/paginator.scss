@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding-top: 5px;
   padding-bottom: 25px;
 
   @media (min-width: $tablet-width) {
+    padding-top: 0;
     padding-bottom: 0;
   }
 }
@@ -12,7 +14,7 @@
 .paginator__show-more {
   display: block;
 
-  margin-top: 27px;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
 
@@ -22,7 +24,7 @@
   opacity: 0.2;
 
   @media (min-width: $tablet-width) {
-    margin-top: 50px;
+    margin-top: 55px;
 
     width: 61px;
     height: 61px;

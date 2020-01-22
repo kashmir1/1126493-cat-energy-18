@@ -9,13 +9,14 @@
 
 .catalog__list {
   @include list;
+  margin-top: -5px;
 
   @media (min-width: $tablet-width) {
     min-width: 708px;
     display: flex;
     flex-wrap: wrap;
 
-    margin-top: 140px;
+    margin-top: 139px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -52,7 +53,7 @@
     background-color: $grey;
     border: 0;
 
-    margin-bottom: 137px;
+    margin-bottom: 136px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 40px;
@@ -104,8 +105,8 @@
   padding-right: 20px;
 
   @media (min-width: $tablet-width) {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 23px;
+    padding-right: 23px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -149,7 +150,7 @@
 .catalog__product-title {
   width: 85px;
 
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 10px;
 
   font-size: 16px;
@@ -158,7 +159,7 @@
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
-    margin-top: 10px;
+    margin-top: 12px;
     margin-bottom: 25px;
     width: 130px;
     text-align: center;
@@ -175,13 +176,11 @@
 .catalog__product-features {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 5px;
 
   @include content-font;
   font-size: 12px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 0;
     font-size: 16px;
   }
 }

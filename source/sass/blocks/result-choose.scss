@@ -16,6 +16,7 @@
 }
 
 .result-choose__list {
+
   @include list;
 
   @media (min-width: $desktop-width) {
@@ -47,7 +48,7 @@
   &::after {
     content: "";
     position: absolute;
-    top: 25px;
+    top: 27px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -75,7 +76,7 @@
     width: 570px;
 
     margin-right: 0;
-    padding-top: 47px;
+    padding-top: 44px;
     padding-left: 55px;
     padding-right: 20px;
 
@@ -99,7 +100,7 @@
 .result-choose__diet {
   position: absolute;
   z-index: 1;
-  top: 20px;
+  top: 23px;
   margin-left: 10px;
   width: 35px;
   height: 49px;
@@ -126,7 +127,7 @@
   margin-left: -10px;
   position: absolute;
   z-index: 1;
-  top: 35px;
+  top: 37px;
   width: 67px;
   height: 28px;
   background-image: url("../img/icon-cat-pro.svg");
@@ -174,13 +175,13 @@
 .result-choose__description {
   @include content-font;
   margin-top: 35px;
-  padding-bottom: 26px;
+  padding-bottom: 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
   @media (min-width: $tablet-width) {
     width: 372px;
 
-    margin-top: 20px;
+    margin-top: 22px;
     margin-bottom: 25px;
 
     font-size: 16px;
@@ -196,6 +197,7 @@
   @media (min-width: $desktop-width) {
     width: 100%;
     margin-bottom: 0;
+    padding-bottom: 27px;
     font-size: 16px;
     border: 0;
   }

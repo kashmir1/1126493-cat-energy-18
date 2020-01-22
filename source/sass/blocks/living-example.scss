@@ -15,7 +15,7 @@
   @media (min-width: $desktop-width) {
     box-sizing: border-box;
     border: 0;
-    padding-top: 45px;
+    padding-top: 50px;
     overflow-x: hidden;
   }
 }
@@ -59,6 +59,10 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -5px;
+  }
 }
 
 .living-example__title--indent {
@@ -94,14 +98,14 @@
 
 .living-example__act {
   margin-bottom: 5px;
-  padding-top: 15px;
+  padding-top: 17px;
   padding-bottom: 20px;
 
   @include content-font;
   white-space: pre-wrap;
 
   @media (min-width: $tablet-width) {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 16px;
     width: 677px;
     white-space: normal;
@@ -165,6 +169,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    margin-top: 3px;
     margin-right: 45px;
   }
 }
@@ -232,7 +237,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 330px;
-    margin-top: 50px;
+    margin-top: 55px;
   }
 }
 
@@ -261,7 +266,7 @@
   @media (min-width: $tablet-width) {
 
     min-height: 340px;
-    margin-top: 245px;
+    margin-top: 250px;
     padding-bottom: 60px;
     background-color: $grey;
     overflow: visible;
@@ -350,7 +355,7 @@
   margin-top: 42px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 115px;
+    margin-top: 110px;
     margin-left: 0;
   }
 

@@ -31,7 +31,7 @@
   @media (min-width: $desktop-width) {
     flex-direction: row-reverse;
     justify-content: space-between;
-    min-height: 580px;
+    min-height: 575px;
 
     &::after {
       content: "";

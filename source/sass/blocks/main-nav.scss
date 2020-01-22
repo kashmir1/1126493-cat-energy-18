@@ -2,8 +2,6 @@
   position: relative;
 
   @include main-font;
-  // padding-left: 20px; pixel-perfect
-  // padding-right: 20px; pixel-perfect
   background-color: $white;
 
   @media (min-width: $tablet-width) {
@@ -80,7 +78,7 @@
 
 .main-nav__list {
   margin: 0;
-  margin-top: 10px;
+  margin-top: 11px;
   padding-left: 0;
   font-size: 20px;
   text-transform: uppercase;
@@ -150,7 +148,7 @@
 .main-nav__link--active-primary {
   @media (min-width: $tablet-width) {
     border-bottom: 2px solid $green;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
   }
 }
 
@@ -169,5 +167,4 @@
 .main-nav--nojs .main-nav__item {
   display: block;
 }
-
 // без js
