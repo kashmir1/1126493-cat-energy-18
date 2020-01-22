@@ -1,6 +1,6 @@
 .program {
   @include main-font;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
   box-sizing: border-box;
 
   @media (min-width: $tablet-width) {
@@ -73,7 +73,6 @@
 
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 5px;
 
   @media (min-width: $tablet-width) {
     margin-top: 70px;
@@ -155,9 +154,11 @@
 .program__choose-result-lits {
   list-style: none;
   border: 1px solid $light-grey;
+  margin-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
+
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -365,12 +366,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 15px;
-  padding-left: 20px;
+  margin-bottom: 10px;
+  padding-left: 15px;
 
   @media (min-width: $tablet-width) {
     min-width: 650px;
     margin-bottom: 20px;
+    padding-left: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -448,6 +450,7 @@
   padding: 0;
   padding-left: 20px;
   padding-right: 40px;
+  margin-bottom: 15px;
 
   @media (min-width: $tablet-width) {
     margin-top: 35px;
@@ -467,7 +470,7 @@
   border: 1px solid #cdcdcd;
   resize: none;
   width: 100%;
-  height: 140px;
+  height: 135px;
   margin-top: 35px;
   padding-top: 10px;
   padding-left: 16px;
@@ -621,10 +624,14 @@
 .program__button {
   width: 100%;
   margin-top: 35px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   border: 0;
 
   @media (min-width: $tablet-width) {
     width: 280px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     margin-top: 5px;
     font-size: 20px;
   }
